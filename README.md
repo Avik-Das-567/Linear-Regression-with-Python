@@ -178,7 +178,7 @@ This project includes practical implementations of key machine learning mathemat
 
 ## Tools & Technologies Used
 
-- **Python** for programming
+- **Python**
 
 - **NumPy** for numerical computations
 
