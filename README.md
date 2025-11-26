@@ -198,20 +198,29 @@ This project includes practical implementations of key machine learning mathemat
 
 - Visual proof of learning through plots and comparisons
 
-- Clean and progressive structure
+---
+
+## Why This Project Matters
+
+This project demonstrates how predictive models can be built from the ground up to understand relationships between variables and generate actionable insights. 
+The techniques used here are directly applicable to:
+
+- Sales forecasting
+- Trend analysis
+- Cost estimation
+- Performance prediction
+- Business decision support
 
 ---
 
-## Learning Outcome
+## Key Takeaways
 
-This project demonstrates the ability to:
+- Loss decreases steadily as the model learns underlying patterns in the data
 
-- Build foundational machine learning models without external frameworks
+- Proper gradient updates are essential for model convergence
 
-- Understand internal mechanics of supervised learning
+- Model predictions significantly improve after training
 
-- Apply numerical optimization techniques
-
-- Create interpretable visualizations for model evaluation
+- Visualization is critical for interpreting model performance
 
 ---
