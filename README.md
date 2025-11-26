@@ -190,13 +190,13 @@ This project includes practical implementations of key machine learning mathemat
 
 ## Key Highlights
 
-- Built a **fully working ML model** from scratch
+- Designed an end-to-end regression pipeline from raw data generation to model evaluation
 
-- No machine learning libraries like scikit-learn were used
+- Implemented gradient descent optimization manually without external ML libraries
 
-- Manual implementation of all training mechanics
+- Built visual diagnostics to evaluate loss trends and prediction quality
 
-- Visual proof of learning through plots and comparisons
+- Demonstrated strong understanding of model interpretability and performance analysis
 
 ---
 
@@ -206,9 +206,13 @@ This project demonstrates how predictive models can be built from the ground up 
 The techniques used here are directly applicable to:
 
 - Sales forecasting
+
 - Trend analysis
+
 - Cost estimation
+
 - Performance prediction
+
 - Business decision support
 
 ---
