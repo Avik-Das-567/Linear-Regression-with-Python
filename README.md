@@ -176,9 +176,7 @@ This project includes practical implementations of key machine learning mathemat
 
 ---
 
-## Tools and Technologies
-
-The project was built using:
+## Tools & Technologies Used
 
 - **Python** for programming
 
