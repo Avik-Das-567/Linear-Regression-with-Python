@@ -188,7 +188,7 @@ This project includes practical implementations of key machine learning mathemat
 
 ---
 
-## Highlights
+## Key Highlights
 
 - Built a **fully working ML model** from scratch
 
