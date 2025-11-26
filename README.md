@@ -55,7 +55,7 @@ The project is structured as a progressive, task-based notebook that builds the 
 
   - Review of the linear regression equation and its components
 
-  - Creation of synthetic data using NumPy
+  - Creation of **synthetic data** using NumPy
 
   - Addition of controlled randomness (noise) to simulate real-world data
 
@@ -64,9 +64,7 @@ The project is structured as a progressive, task-based notebook that builds the 
 - **Task 3: Initialize Parameters**
 
   - Introduction to model parameters:
-
     - **Weight (W)**
-
     - **Bias (b)**
 
   - Building the base structure of a custom `LinearModel` class
@@ -82,64 +80,140 @@ The project is structured as a progressive, task-based notebook that builds the 
 
   - Verification of model outputs
 
-🔹 Task 5: Compute Loss
+- **Task 5: Compute Loss**
 
-Implementation of the Mean Squared Error (MSE) loss function
+  - Implementation of the **Mean Squared Error (MSE)** loss function
 
-Measuring how far predictions are from true values
+  - Measuring how far predictions are from true values
 
-Tracking loss across iterations for performance monitoring
+  - Tracking loss across iterations for performance monitoring
 
-🔹 Task 6: Backward Pass
+- **Task 6: Backward Pass**
 
-Manual calculation of gradients:
+  - Manual calculation of gradients:
+    - Partial derivative of loss with respect to **W**
+    - Partial derivative of loss with respect to **b**
 
-Partial derivative of loss with respect to W
+  - Understanding gradient flow and parameter sensitivity
 
-Partial derivative of loss with respect to b
+- **Task 7: Update Parameters**
 
-Understanding gradient flow and parameter sensitivity
+  - Implementation of the **gradient descent update rule**
 
-🔹 Task 7: Update Parameters
+  - Use of learning rate to control step size
 
-Implementation of the gradient descent update rule
+  - Continuous improvement of model parameters
 
-Use of learning rate to control step size
+- **Task 8: Training Loop**
 
-Continuous improvement of model parameters
+  - Building a full training pipeline
 
-🔹 Task 8: Training Loop
+  - Iterative execution of:
+    - Forward pass
+    - Loss computation
+    - Backward pass
+    - Parameter update
 
-Building a full training pipeline
+  - Logging and storing training loss
 
-Iterative execution of:
-
-Forward pass
-
-Loss computation
-
-Backward pass
-
-Parameter update
-
-Logging and storing training loss
-
-Visualization of loss decreasing smoothly over 1000 iterations
+  - Visualization of loss decreasing smoothly over 1000 iterations
 
 This confirms that gradient descent is functioning correctly.
 
-🔹 Task 9: Predictions
+- **Task 9: Predictions**
 
-Generating predictions from:
+  - Generating predictions from:
+    - An **untrained model**
+    - A **trained model**
 
-An untrained model
+- Visual comparison of model behavior
 
-A trained model
+- Strong evidence of learning shown through:
+  - Random scatter from the untrained model
+  - Tight alignment of trained predictions with ground truth
 
-Visual comparison of model behavior
+---
 
-Strong evidence of learning shown through:
+## Results and Visualizations
 
-Random scatter from the untrained model
+### Training Loss :
 
-Tight alignment of trained predictions with ground truth
+  ![Training Loss](Images/Training_Loss.png "Training Loss")
+
+  - The loss curve shows a consistent downward trend.
+
+  - Demonstrates stable and effective parameter updates.
+
+  - Confirms that the learning algorithm successfully minimizes error.
+
+### Prediction Behavior :
+
+  ![Predictions](Images/Predictions.png "Predictions")
+
+The prediction plot clearly shows:
+
+| Model State     |	Behavior                                        |
+| :-------------: | :---------------------------------------------: |
+| Untrained Model (red points) |	Random, widely scattered, inaccurate predictions |
+| Trained Model (blue points)  |	Tightly aligned with true values, forming a strong linear relationship    |
+
+
+This visual comparison validates the correctness of the gradient descent and backpropagation implementation.
+
+---
+
+## Mathematical Foundations Implemented
+
+This project includes practical implementations of key machine learning mathematics:
+
+- Linear equation modeling
+
+- Mean Squared Error (MSE)
+
+- Partial derivatives and gradients
+
+- Batch gradient descent optimization
+
+---
+
+## Tools and Technologies
+
+The project was built using:
+
+- **Python** for programming
+
+- **NumPy** for numerical computations
+
+- **Matplotlib** for data visualization
+
+- **Jupyter Notebook** as the development environment
+
+---
+
+## Highlights
+
+- Built a **fully working ML model** from scratch
+
+- No machine learning libraries like scikit-learn were used
+
+- Manual implementation of all training mechanics
+
+- Visual proof of learning through plots and comparisons
+
+- Clean and progressive structure
+
+---
+
+## Learning Outcome
+
+This project demonstrates the ability to:
+
+- Build foundational machine learning models without external frameworks
+
+- Understand internal mechanics of supervised learning
+
+- Apply numerical optimization techniques
+
+- Create interpretable visualizations for model evaluation
+
+---
