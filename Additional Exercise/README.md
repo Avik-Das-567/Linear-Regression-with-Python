@@ -107,3 +107,37 @@ This validates the correctness of:
 
 ---
 
+## Dataset Description
+
+This exercise uses a structured real-world style dataset (`chirps.xls`), where:
+
+- Input features are numerical measurements
+
+- Target values represent continuous real-valued outcomes
+
+The dataset is used to demonstrate supervised learning in a more realistic setting than purely synthetic data.
+
+---
+
+## Tools & Technologies Used
+
+- Python
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## Key Highlights
+
+- Reusable object-oriented model implementation
+
+- Full gradient descent implementation from scratch
+
+- Real-data regression practice using a tabular dataset
+
+- Clean separation of model and training logic
+
+- Visual evaluation of learning behavior
+
+---
