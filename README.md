@@ -200,10 +200,10 @@ This project includes practical implementations of key machine learning mathemat
 
 ---
 
-## Why This Project Matters
+## Applications
 
-This project demonstrates how predictive models can be built from the ground up to understand relationships between variables and generate actionable insights. 
-The techniques used here are directly applicable to:
+This project demonstrates how predictive models can be built from scratch to understand relationships between numeric variables and generate actionable insights. 
+The techniques implemented here form the foundation for:
 
 - Sales forecasting
 
