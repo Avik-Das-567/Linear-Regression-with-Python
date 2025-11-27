@@ -83,9 +83,7 @@ The model is trained for multiple iterations and prints periodic loss updates to
 The training loss plot shows a **rapid and smooth decrease in loss values** over time, indicating that:
 
 - Gradients are computed correctly
-
 - Learning rate is stable
-
 - The model successfully minimizes prediction error
 
 This confirms that the optimization pipeline is functioning as expected.
@@ -113,7 +111,7 @@ This project uses a small Excel dataset (`chirps.xls`) containing two numerical 
 - **X**: Number of cricket chirps per minute  
 - **Y**: Ambient room temperature  
 
-The dataset contains 15 samples and is used to model the linear relationship between chirping frequency and temperature using gradient descent-based regression.
+The dataset contains 15 samples and is used to model the linear relationship between chirping frequency and temperature using gradient descent-based optimization.
 
 ---
 
