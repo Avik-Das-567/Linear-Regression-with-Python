@@ -138,7 +138,7 @@ This confirms that gradient descent is functioning correctly.
 
 ### Training Loss :
 
-  ![Training Loss](Images/Training_Loss.png "Training Loss")
+  ![Training Loss](https://github.com/Avik-Das-567/Linear-Regression-with-Python/blob/main/Images/Training_Loss.png "Training Loss")
 
   - The loss curve shows a consistent downward trend.
 
@@ -148,7 +148,7 @@ This confirms that gradient descent is functioning correctly.
 
 ### Prediction Behavior :
 
-  ![Predictions](Images/Predictions.png "Predictions")
+  ![Predictions](https://github.com/Avik-Das-567/Linear-Regression-with-Python/blob/main/Images/Predictions.png "Predictions")
 
 The prediction plot clearly shows:
 
