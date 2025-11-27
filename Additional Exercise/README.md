@@ -1,6 +1,6 @@
 # Additional Exercise - Linear Regression with Python
 
-This sub-project is an extension of the main **Linear Regression with Python** project and focuses on applying a **from-scratch linear regression model** to a real-world style dataset.
+This sub-project is an extension of the main **Linear Regression with Python** project and focuses on applying a "**from-scratch linear regression model**" to a real-world style dataset.
 It reinforces both conceptual understanding and practical implementation of supervised learning using pure NumPy, without relying on external machine learning libraries.
 
 Instead of synthetic data, this exercise uses a structured dataset and emphasizes building reusable model code through a standalone Python class.
