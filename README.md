@@ -151,7 +151,7 @@ This project includes practical implementations of key machine learning mathemat
 
 ## Applications
 
-This project demonstrates how predictive models can be built from scratch to understand relationships between numeric variables and generate actionable insights. 
+This project demonstrates how predictive models can be built from scratch to understand relationships between numeric variables. 
 The techniques implemented here form the foundation for:
 - Sales forecasting
 - Trend analysis
