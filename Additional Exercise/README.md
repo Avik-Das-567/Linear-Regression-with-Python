@@ -113,7 +113,7 @@ This project uses a small Excel dataset (`chirps.xls`) containing two numerical 
 - **X**: Number of cricket chirps per minute  
 - **Y**: Ambient room temperature  
 
-The dataset contains 15 samples and is used to model the linear relationship between chirping frequency and temperature using gradient descent based regression.
+The dataset contains 15 samples and is used to model the linear relationship between chirping frequency and temperature using gradient descent-based regression.
 
 ---
 
