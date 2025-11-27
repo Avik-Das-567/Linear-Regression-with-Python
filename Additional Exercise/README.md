@@ -76,9 +76,9 @@ The model is trained for multiple iterations and prints periodic loss updates to
 
 ## Results and Visualizations
 
-### Training Loss Plot
+### Training Loss Plot :
 
-  ![Training Loss Plot](Additional Exercise/images/Training_Loss_Plot.png "Training Loss Plot")
+  ![Training Loss Plot](https://github.com/Avik-Das-567/Linear-Regression-with-Python/blob/main/Additional%20Exercise/images/Training_Loss_Plot.png "Training Loss Plot")
 
 The training loss plot shows a **rapid and smooth decrease in loss values** over time, indicating that:
 
@@ -90,9 +90,9 @@ The training loss plot shows a **rapid and smooth decrease in loss values** over
 
 This confirms that the optimization pipeline is functioning as expected.
 
-### Predictions vs Actual Values
+### Predictions vs Actual Values :
 
-  ![Predictions Plot](Additional Exercise/images/Predictions_Plot.png "Predictions Plot")
+  ![Predictions Plot](https://github.com/Avik-Das-567/Linear-Regression-with-Python/blob/main/Additional%20Exercise/images/Predictions_Plot.png "Predictions Plot")
 
 The prediction plot visualizes:
 - Actual target values
