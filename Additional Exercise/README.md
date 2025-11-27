@@ -127,7 +127,7 @@ The dataset contains 15 samples and is used to model the linear relationship bet
 ## Key Highlights
 
 - Implemented reusable linear regression model in a standalone Python class
-- Applied regression to a real-world style dataset
+- Applied regression to a real-world inspired dataset
 - Visualized training convergence and prediction accuracy
 
 ---
