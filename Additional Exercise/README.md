@@ -1,22 +1,18 @@
 # Additional Exercise - Linear Regression with Python
 
-This sub-project is an extension of the main **Linear Regression with Python** project and focuses on applying a "**from-scratch linear regression model**" to a real-world style dataset.
+This sub-project is an extension of the main **Linear Regression with Python** project and focuses on applying a **"from-scratch linear regression model"** to a real-world style dataset.
 It reinforces both conceptual understanding and practical implementation of supervised learning using pure NumPy, without relying on external machine learning libraries.
 
 Instead of synthetic data, this exercise uses a structured dataset and emphasizes building reusable model code through a standalone Python class.
 
 ---
 
-## Objective
+## Objectives
 
 The goal of this exercise is to:
-
 - Apply linear regression to a real dataset
-
 - Strengthen understanding of model training mechanics
-
 - Practice separating **model logic** from **experimentation code**
-
 - Visualize training behavior and prediction accuracy
 
 This exercise helps bridge the gap between **toy examples** and **practical data modeling**.
@@ -26,7 +22,6 @@ This exercise helps bridge the gap between **toy examples** and **practical data
 ## Folder Contents
 
 This sub-repository includes the following components:
-
 - A **Jupyter Notebook** for experimentation and visualization
 - A **dataset** file (`chirps.xls`)
 - A standalone **Python model implementation** (`linreg.py`)
@@ -36,20 +31,13 @@ This sub-repository includes the following components:
 
 ## Model Architecture
 
-The core model is implemented in a separate Python file as a reusable class called `LinearModel`.
-
-Key components of the model include:
-
+The core model is implemented in a separate Python file as a reusable class called `LinearModel`. Key components of the model include:
 - Random initialization of **weights (W)** and **bias (b)**
-
 - Forward propagation using: $y = b + XW$
-
 - Mean Squared Error (MSE) loss computation
-
 - Manual backpropagation to compute:
   - Gradient of weights (**dW**)
   - Gradient of bias (**db**)
-
 - Gradient descent based parameter updates
 
 All of these are implemented manually using NumPy operations.
@@ -59,15 +47,10 @@ All of these are implemented manually using NumPy operations.
 ## Training Process
 
 The training pipeline is built around a custom training loop that performs:
-
 - Forward pass
-
 - Loss calculation
-
 - Backward pass (gradient computation)
-
 - Parameter updates
-
 - Loss tracking per iteration
 
 The model is trained for multiple iterations and prints periodic loss updates to monitor convergence.
@@ -88,7 +71,7 @@ The training loss plot shows a **rapid and smooth decrease in loss values** over
 
 This confirms that the optimization pipeline is functioning as expected.
 
-### Predictions vs Actual Values :
+### Predictions vs. Actual Values :
 
   ![Predictions Plot](https://github.com/Avik-Das-567/Linear-Regression-with-Python/blob/main/Additional%20Exercise/images/Predictions_Plot.png "Predictions Plot")
 
