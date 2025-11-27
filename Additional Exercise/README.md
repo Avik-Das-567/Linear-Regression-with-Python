@@ -1,4 +1,4 @@
-# Additional Exercise - Linear Regression from Scratch
+# Additional Exercise - Linear Regression with Python
 
 This sub-project is an extension of the main **Linear Regression with Python** project and focuses on applying a **from-scratch linear regression model** to a real-world style dataset.
 It reinforces both conceptual understanding and practical implementation of supervised learning using pure NumPy, without relying on external machine learning libraries.
@@ -7,7 +7,7 @@ Instead of synthetic data, this exercise uses a structured dataset and emphasize
 
 ---
 
-## Project Objective
+## Objective
 
 The goal of this exercise is to:
 
@@ -109,13 +109,11 @@ This validates the correctness of:
 
 ## Dataset Description
 
-This exercise uses a structured real-world style dataset (`chirps.xls`), where:
+This project uses a small Excel dataset (`chirps.xls`) containing two numerical columns:
+- **X**: Number of cricket chirps per minute  
+- **Y**: Ambient room temperature  
 
-- Input features are numerical measurements
-
-- Target values represent continuous real-valued outcomes
-
-The dataset is used to demonstrate supervised learning in a more realistic setting than purely synthetic data.
+The dataset contains 15 samples and is used to model the linear relationship between chirping frequency and temperature using gradient descent–based regression.
 
 ---
 
@@ -130,14 +128,8 @@ The dataset is used to demonstrate supervised learning in a more realistic setti
 
 ## Key Highlights
 
-- Reusable object-oriented model implementation
-
-- Full gradient descent implementation from scratch
-
-- Real-data regression practice using a tabular dataset
-
-- Clean separation of model and training logic
-
-- Visual evaluation of learning behavior
+- Implemented reusable linear regression model in a standalone Python class
+- Applied regression to a real-world style dataset
+- Visualized training convergence and prediction accuracy
 
 ---
